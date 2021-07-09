@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+<body>
+  <header>
+    <h3>Line Chart</h3>
+  </header>
+  <div class="homePage">
+    <a href="../index.html">Back</a>
+  </div>
+  <div id="essentials">
+    <input type="text" name="" id="title" value="" placeholder="Chart Title" />
+    <input type="text" name="" id="xaxisTitle" value="" placeholder="x-axis Title" />
+    <input type="text" name="" id="yaxisTitle" value="" placeholder="y-axis Title" />
+    <input type="number" id="xaxisRange" placeholder="Max">
+    <input type="number" id="yaxisRange" placeholder="Min">
+    <button type="button" onclick="titles()">Done!</button>
+  </div>
+  <div id="entireBody">
+    <div class="tables">
+      <div class="table1">
+        <table class="fl-table">
+          <thead>
+            <th>
+              <tr id="th1"></tr>
+            </th>
+          </thead>
+          <tbody id="td1"></tbody>
+        </table>
+      </div>
+
+      <div class="table2">
+        <table class="fl-table">
+          <thead>
+            <th>
+              <tr id="th2"></tr>
+            </th>
+          </thead>
+          <tbody id="td2"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="formBtn">
+      <form id="form">
+        <input type="number" name="" id="xValues" placeholder="X-Axis Values" />
+        <input type="number" name="" id="yValues" placeholder="Y-Axis Values" />
+      </form>
+      <div>
+        <button type="button" onclick="arrayInput()">Add Value</button>
+        <button type="button" onclick="createChart()">Generate Chart</button>
+      </div>
+      <div id="myPlot" style="width:100%;max-width:700px"></div>
+      <div class="printPDF">
+        <button onclick="window.print();">Print As PDF</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+<footer id="footer">
+  <p>
+    Made By Mrudul
+  </p>
+</footer>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  margin: 10px;
+  text-align: center;
+}
+.modebar {
+  display: none !important;
+}
+footer {
+  width: 100vw;
+  font-size: 14px;
+  position: fixed;
+  top: 95%;
+  text-align: center;
+}
+#entireBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formBtn {
+  margin: auto;
+  width: 100vw;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#essentials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100vw;
+  text-align: center;
+}
+input {
+  margin: 10px;
+  text-align: center;
+}
+.homePage {
+  width: 100%;
+  text-align: left;
+}
